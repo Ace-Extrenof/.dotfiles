@@ -1,0 +1,7 @@
+2024-06-12 14:34:52 INFO log.py: Yasb - Yet Another Status Bar
+2024-06-12 14:34:53 INFO bar_manager.py: Starting SystemEventListener...
+2024-06-12 14:34:53 INFO bar_manager.py: Starting KomorebiEventListener...
+2024-06-12 14:34:53 INFO event_listener.py: Created named pipe yasb-d4fd7493-289a-11ef-8d97-7413ea183593
+2024-06-12 14:34:53 INFO watcher.py: Created file watcher for path C:\Users\DELL1\.config\yasb
+2024-06-12 14:34:53 INFO event_listener.py: Waiting for Komorebi to subscribe to named pipe yasb-d4fd7493-289a-11ef-8d97-7413ea183593
+2024-06-12 14:34:53 INFO event_listener.py: Komorebi connected to named pipe: yasb-d4fd7493-289a-11ef-8d97-7413ea183593
