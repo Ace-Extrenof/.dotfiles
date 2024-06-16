@@ -9,9 +9,12 @@ return {
         priority = 1000,
         opts = {},
     },
-    { "rose-pine/neovim", as = "rose-pine" },
+    { "rose-pine/neovim",        as = "rose-pine" },
     { 'sainnhe/sonokai' },
-    {'sainnhe/gruvbox-material'},
-    { "catppuccin/nvim",  name = "catppuccin", priority = 1000 },
-    'luisiacc/gruvbox-baby'
+    { 'sainnhe/gruvbox-material' },
+    { "catppuccin/nvim",         name = "catppuccin", priority = 1000 },
+    'luisiacc/gruvbox-baby',
+    { 'datsfilipe/vesper.nvim' },
+    'mellow-theme/mellow.nvim',
+    'morhetz/gruvbox'
 }

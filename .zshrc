@@ -1,10 +1,9 @@
 export PATH=$PATH:~/bin
-blocks
+neofetch
 
 alias nv='nvim'
 alias lz='lazygit'
 alias ls='eza --icons'
-alias tp='./tmux.sh'
 alias py='python3'
 
 eval "$(starship init zsh)"
