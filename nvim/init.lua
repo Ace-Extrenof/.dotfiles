@@ -18,9 +18,10 @@ require("lazy").setup("plugins")
 
 require("pluginconf")
 
-vim.cmd "let g:everforest_background = 'hard'"
+vim.cmd "colorscheme miasma"
 
-vim.cmd "colorscheme gruvbox-baby"
+vim.cmd "let g:everforest_background = 'hard'"
 
 require('conf.diagnostics')
 require('conf.icons')
+require('conf.br')

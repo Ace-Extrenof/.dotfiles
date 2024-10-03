@@ -5,6 +5,9 @@ return {
             rust_analyzer = function()
                 return true
             end,
+            kotlin_language_server = function()
+                return true
+            end,
         },
     },
     dependencies = {
@@ -39,7 +42,6 @@ return {
             ensure_installed = {
                 "lua_ls",
                 "pyright",
-                "ruff",
             },
             handlers = {
                 function(server_name) -- default handler (optional)
@@ -91,7 +93,7 @@ return {
             update_in_insert = true,
             float = {
                 focusable = false,
-                style = "minimal",
+                style = "rounded",
                 border = "rounded",
                 source = "always",
                 header = "",
